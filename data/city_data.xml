@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <record id="city_paris" model="traveloop.city">
+        <field name="name">Paris</field>
+        <field name="country">France</field>
+        <field name="cost_index">85</field>
+        <field name="popularity">98</field>
+        <field name="image_url">https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800</field>
+        <field name="description">City of light and love — iconic art, fashion, and cuisine.</field>
+    </record>
+    <record id="city_tokyo" model="traveloop.city">
+        <field name="name">Tokyo</field>
+        <field name="country">Japan</field>
+        <field name="cost_index">80</field>
+        <field name="popularity">96</field>
+        <field name="image_url">https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800</field>
+        <field name="description">Neon-lit megacity blending ancient tradition with cutting-edge tech.</field>
+    </record>
+    <record id="city_bali" model="traveloop.city">
+        <field name="name">Bali</field>
+        <field name="country">Indonesia</field>
+        <field name="cost_index">35</field>
+        <field name="popularity">92</field>
+        <field name="image_url">https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800</field>
+        <field name="description">Tropical paradise of beaches, temples, and lush rice terraces.</field>
+    </record>
+    <record id="city_newyork" model="traveloop.city">
+        <field name="name">New York</field>
+        <field name="country">USA</field>
+        <field name="cost_index">95</field>
+        <field name="popularity">97</field>
+        <field name="image_url">https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800</field>
+        <field name="description">The city that never sleeps — skyscrapers, culture, and energy.</field>
+    </record>
+    <record id="city_rome" model="traveloop.city">
+        <field name="name">Rome</field>
+        <field name="country">Italy</field>
+        <field name="cost_index">70</field>
+        <field name="popularity">90</field>
+        <field name="image_url">https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800</field>
+        <field name="description">Eternal city of ancient wonders, art, and world-class pasta.</field>
+    </record>
+    <record id="city_barcelona" model="traveloop.city">
+        <field name="name">Barcelona</field>
+        <field name="country">Spain</field>
+        <field name="cost_index">65</field>
+        <field name="popularity">88</field>
+        <field name="image_url">https://images.unsplash.com/photo-1583422409516-2895a77efded?w=800</field>
+        <field name="description">Gaudí architecture, vibrant beaches, and incredible tapas culture.</field>
+    </record>
+    <record id="city_marrakech" model="traveloop.city">
+        <field name="name">Marrakech</field>
+        <field name="country">Morocco</field>
+        <field name="cost_index">40</field>
+        <field name="popularity">78</field>
+        <field name="image_url">https://images.unsplash.com/photo-1597212720130-d1b4cd5b53b6?w=800</field>
+        <field name="description">Vibrant souks, riads, and the gateway to the Sahara desert.</field>
+    </record>
+    <record id="city_reykjavik" model="traveloop.city">
+        <field name="name">Reykjavik</field>
+        <field name="country">Iceland</field>
+        <field name="cost_index">90</field>
+        <field name="popularity">75</field>
+        <field name="image_url">https://images.unsplash.com/photo-1490650404312-a2175773bbf5?w=800</field>
+        <field name="description">Northern lights, geysers, and dramatic volcanic landscapes.</field>
+    </record>
+    <record id="city_capetown" model="traveloop.city">
+        <field name="name">Cape Town</field>
+        <field name="country">South Africa</field>
+        <field name="cost_index">55</field>
+        <field name="popularity">82</field>
+        <field name="image_url">https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800</field>
+        <field name="description">Table Mountain, stunning beaches, and world-class wine country.</field>
+    </record>
+    <record id="city_bangkok" model="traveloop.city">
+        <field name="name">Bangkok</field>
+        <field name="country">Thailand</field>
+        <field name="cost_index">45</field>
+        <field name="popularity">89</field>
+        <field name="image_url">https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=800</field>
+        <field name="description">Street food capital, golden temples, and electric nightlife.</field>
+    </record>
+</odoo>

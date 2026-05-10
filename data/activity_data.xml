@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <!-- ── Paris ── -->
+    <record id="act_paris_eiffel" model="traveloop.activity">
+        <field name="name">Eiffel Tower Visit</field>
+        <field name="city_id" ref="city_paris"/>
+        <field name="activity_type">culture</field>
+        <field name="cost">28.0</field>
+        <field name="duration_hours">2.0</field>
+        <field name="description">Skip-the-line summit access with panoramic city views.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1543349689-9a4d426bee8e?w=600</field>
+    </record>
+    <record id="act_paris_louvre" model="traveloop.activity">
+        <field name="name">Louvre Museum</field>
+        <field name="city_id" ref="city_paris"/>
+        <field name="activity_type">culture</field>
+        <field name="cost">17.0</field>
+        <field name="duration_hours">3.0</field>
+        <field name="description">World's largest art museum — home of the Mona Lisa.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=600</field>
+    </record>
+    <record id="act_paris_seine" model="traveloop.activity">
+        <field name="name">Seine River Cruise</field>
+        <field name="city_id" ref="city_paris"/>
+        <field name="activity_type">leisure</field>
+        <field name="cost">15.0</field>
+        <field name="duration_hours">1.5</field>
+        <field name="description">Romantic evening cruise past Notre-Dame and the Eiffel Tower.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1431274172761-fca41d930114?w=600</field>
+    </record>
+
+    <!-- ── Tokyo ── -->
+    <record id="act_tokyo_shibuya" model="traveloop.activity">
+        <field name="name">Shibuya Crossing</field>
+        <field name="city_id" ref="city_tokyo"/>
+        <field name="activity_type">culture</field>
+        <field name="cost">0.0</field>
+        <field name="duration_hours">1.0</field>
+        <field name="description">Experience the world's busiest pedestrian scramble crossing.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=600</field>
+    </record>
+    <record id="act_tokyo_sushi" model="traveloop.activity">
+        <field name="name">Sushi Making Class</field>
+        <field name="city_id" ref="city_tokyo"/>
+        <field name="activity_type">food</field>
+        <field name="cost">80.0</field>
+        <field name="duration_hours">2.5</field>
+        <field name="description">Hands-on sushi workshop with a professional chef.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=600</field>
+    </record>
+    <record id="act_tokyo_temple" model="traveloop.activity">
+        <field name="name">Senso-ji Temple</field>
+        <field name="city_id" ref="city_tokyo"/>
+        <field name="activity_type">culture</field>
+        <field name="cost">0.0</field>
+        <field name="duration_hours">2.0</field>
+        <field name="description">Tokyo's oldest temple in the historic Asakusa district.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=600</field>
+    </record>
+
+    <!-- ── Bali ── -->
+    <record id="act_bali_rice" model="traveloop.activity">
+        <field name="name">Ubud Rice Terraces</field>
+        <field name="city_id" ref="city_bali"/>
+        <field name="activity_type">nature</field>
+        <field name="cost">15.0</field>
+        <field name="duration_hours">3.0</field>
+        <field name="description">Walk through UNESCO-listed Tegallalang rice terraces.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=600</field>
+    </record>
+    <record id="act_bali_surf" model="traveloop.activity">
+        <field name="name">Surfing Lesson</field>
+        <field name="city_id" ref="city_bali"/>
+        <field name="activity_type">adventure</field>
+        <field name="cost">40.0</field>
+        <field name="duration_hours">2.0</field>
+        <field name="description">Beginner surf lesson on Kuta Beach with certified instructors.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1502680390469-be75c86b636f?w=600</field>
+    </record>
+
+    <!-- ── New York ── -->
+    <record id="act_ny_centralpark" model="traveloop.activity">
+        <field name="name">Central Park Walk</field>
+        <field name="city_id" ref="city_newyork"/>
+        <field name="activity_type">nature</field>
+        <field name="cost">0.0</field>
+        <field name="duration_hours">2.0</field>
+        <field name="description">Iconic urban park stroll — Bethesda Fountain to Strawberry Fields.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1518391846015-55a9cc003b25?w=600</field>
+    </record>
+    <record id="act_ny_broadway" model="traveloop.activity">
+        <field name="name">Broadway Show</field>
+        <field name="city_id" ref="city_newyork"/>
+        <field name="activity_type">nightlife</field>
+        <field name="cost">120.0</field>
+        <field name="duration_hours">3.0</field>
+        <field name="description">World-class theater in the heart of Midtown Manhattan.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1503095396549-807759245b35?w=600</field>
+    </record>
+
+    <!-- ── Rome ── -->
+    <record id="act_rome_colosseum" model="traveloop.activity">
+        <field name="name">Colosseum Tour</field>
+        <field name="city_id" ref="city_rome"/>
+        <field name="activity_type">culture</field>
+        <field name="cost">18.0</field>
+        <field name="duration_hours">2.5</field>
+        <field name="description">Guided tour of the ancient Roman amphitheater.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=600</field>
+    </record>
+    <record id="act_rome_pasta" model="traveloop.activity">
+        <field name="name">Pasta Cooking Class</field>
+        <field name="city_id" ref="city_rome"/>
+        <field name="activity_type">food</field>
+        <field name="cost">75.0</field>
+        <field name="duration_hours">3.0</field>
+        <field name="description">Make authentic Roman pasta from scratch with a local chef.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=600</field>
+    </record>
+
+    <!-- ── Barcelona ── -->
+    <record id="act_bcn_sagrada" model="traveloop.activity">
+        <field name="name">Sagrada Família</field>
+        <field name="city_id" ref="city_barcelona"/>
+        <field name="activity_type">culture</field>
+        <field name="cost">26.0</field>
+        <field name="duration_hours">2.0</field>
+        <field name="description">Gaudí's breathtaking unfinished basilica — a UNESCO masterpiece.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1583422409516-2895a77efded?w=600</field>
+    </record>
+    <record id="act_bcn_tapas" model="traveloop.activity">
+        <field name="name">Tapas Bar Crawl</field>
+        <field name="city_id" ref="city_barcelona"/>
+        <field name="activity_type">food</field>
+        <field name="cost">55.0</field>
+        <field name="duration_hours">3.0</field>
+        <field name="description">Sample authentic tapas across the Gothic Quarter's best bars.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1515443961218-a51367888e4b?w=600</field>
+    </record>
+
+    <!-- ── Marrakech ── -->
+    <record id="act_marr_souk" model="traveloop.activity">
+        <field name="name">Medina Souk Tour</field>
+        <field name="city_id" ref="city_marrakech"/>
+        <field name="activity_type">culture</field>
+        <field name="cost">20.0</field>
+        <field name="duration_hours">2.5</field>
+        <field name="description">Navigate the labyrinthine souks of the ancient medina.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1597212720130-d1b4cd5b53b6?w=600</field>
+    </record>
+    <record id="act_marr_sahara" model="traveloop.activity">
+        <field name="name">Sahara Desert Trek</field>
+        <field name="city_id" ref="city_marrakech"/>
+        <field name="activity_type">adventure</field>
+        <field name="cost">150.0</field>
+        <field name="duration_hours">8.0</field>
+        <field name="description">Camel ride into the dunes with overnight Berber camp stay.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600</field>
+    </record>
+
+    <!-- ── Reykjavik ── -->
+    <record id="act_reyk_aurora" model="traveloop.activity">
+        <field name="name">Northern Lights Tour</field>
+        <field name="city_id" ref="city_reykjavik"/>
+        <field name="activity_type">nature</field>
+        <field name="cost">95.0</field>
+        <field name="duration_hours">4.0</field>
+        <field name="description">Chase the aurora borealis on a guided evening excursion.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1483347756197-71ef80e95f73?w=600</field>
+    </record>
+    <record id="act_reyk_bluelagoon" model="traveloop.activity">
+        <field name="name">Blue Lagoon Spa</field>
+        <field name="city_id" ref="city_reykjavik"/>
+        <field name="activity_type">leisure</field>
+        <field name="cost">85.0</field>
+        <field name="duration_hours">3.0</field>
+        <field name="description">Soak in Iceland's famous geothermal hot springs.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1490650404312-a2175773bbf5?w=600</field>
+    </record>
+
+    <!-- ── Cape Town ── -->
+    <record id="act_ct_tablemtn" model="traveloop.activity">
+        <field name="name">Table Mountain Hike</field>
+        <field name="city_id" ref="city_capetown"/>
+        <field name="activity_type">adventure</field>
+        <field name="cost">30.0</field>
+        <field name="duration_hours">4.0</field>
+        <field name="description">Cable car or hike to the iconic flat-topped mountain summit.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=600</field>
+    </record>
+    <record id="act_ct_wine" model="traveloop.activity">
+        <field name="name">Stellenbosch Wine Tour</field>
+        <field name="city_id" ref="city_capetown"/>
+        <field name="activity_type">food</field>
+        <field name="cost">70.0</field>
+        <field name="duration_hours">5.0</field>
+        <field name="description">Visit world-class vineyards in the Cape Winelands.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=600</field>
+    </record>
+
+    <!-- ── Bangkok ── -->
+    <record id="act_bkk_temple" model="traveloop.activity">
+        <field name="name">Grand Palace &amp; Temples</field>
+        <field name="city_id" ref="city_bangkok"/>
+        <field name="activity_type">culture</field>
+        <field name="cost">15.0</field>
+        <field name="duration_hours">3.0</field>
+        <field name="description">Explore the dazzling Grand Palace and Wat Phra Kaew complex.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=600</field>
+    </record>
+    <record id="act_bkk_streetfood" model="traveloop.activity">
+        <field name="name">Street Food Night Tour</field>
+        <field name="city_id" ref="city_bangkok"/>
+        <field name="activity_type">food</field>
+        <field name="cost">35.0</field>
+        <field name="duration_hours">3.0</field>
+        <field name="description">Guided night market feast through Bangkok's best street food stalls.</field>
+        <field name="image_url">https://images.unsplash.com/photo-1559314809-0d155014e29e?w=600</field>
+    </record>
+</odoo>

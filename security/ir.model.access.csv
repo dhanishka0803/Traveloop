@@ -1,0 +1,11 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_traveloop_city_user,traveloop.city user,model_traveloop_city,,1,0,0,0
+access_traveloop_city_admin,traveloop.city admin,model_traveloop_city,base.group_system,1,1,1,1
+access_traveloop_activity_user,traveloop.activity user,model_traveloop_activity,,1,0,0,0
+access_traveloop_activity_admin,traveloop.activity admin,model_traveloop_activity,base.group_system,1,1,1,1
+access_traveloop_trip,traveloop.trip all,model_traveloop_trip,,1,1,1,1
+access_traveloop_stop,traveloop.stop all,model_traveloop_stop,,1,1,1,1
+access_traveloop_trip_activity,traveloop.trip.activity all,model_traveloop_trip_activity,,1,1,1,1
+access_traveloop_expense,traveloop.expense all,model_traveloop_expense,,1,1,1,1
+access_traveloop_checklist,traveloop.checklist.item all,model_traveloop_checklist_item,,1,1,1,1
+access_traveloop_note,traveloop.note all,model_traveloop_note,,1,1,1,1
